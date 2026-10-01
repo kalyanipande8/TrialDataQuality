@@ -1,0 +1,244 @@
+record_id,site_id,category,detail
+S01-SUBJ003-00,S01,inconsistent_date,visit_date 2024-06-28 precedes enrollment_date 2024-06-29
+S01-SUBJ005-00,S01,inconsistent_date,visit_date 2024-05-04 precedes enrollment_date 2024-05-06
+S01-SUBJ008-00,S01,inconsistent_date,visit_date 2024-03-21 precedes enrollment_date 2024-03-23
+S01-SUBJ009-00,S01,inconsistent_date,visit_date 2024-08-12 precedes enrollment_date 2024-08-13
+S01-SUBJ010-00,S01,inconsistent_date,visit_date 2024-11-05 precedes enrollment_date 2024-11-07
+S01-SUBJ011-00,S01,inconsistent_date,visit_date 2024-11-25 precedes enrollment_date 2024-11-27
+S01-SUBJ014-02,S01,inconsistent_date,visit_date 2024-08-11 precedes enrollment_date 2024-09-06
+S01-SUBJ017-00,S01,inconsistent_date,visit_date 2024-05-30 precedes enrollment_date 2024-05-31
+S01-SUBJ019-00,S01,inconsistent_date,visit_date 2024-07-27 precedes enrollment_date 2024-07-28
+S01-SUBJ025-00,S01,inconsistent_date,visit_date 2024-03-26 precedes enrollment_date 2024-03-28
+S01-SUBJ029-03,S01,out_of_range,"systolic_bp=260.0 outside plausible range [70, 220]"
+S01-SUBJ033-00,S01,inconsistent_date,visit_date 2024-03-16 precedes enrollment_date 2024-03-17
+S01-SUBJ037-00,S01,inconsistent_date,visit_date 2024-08-13 precedes enrollment_date 2024-08-15
+S01-SUBJ040-00,S01,inconsistent_date,visit_date 2024-09-14 precedes enrollment_date 2024-09-15
+S01-SUBJ041-00,S01,inconsistent_date,visit_date 2024-08-27 precedes enrollment_date 2024-08-28
+S02-SUBJ009-00,S02,inconsistent_date,visit_date 2024-09-17 precedes enrollment_date 2024-09-19
+S02-SUBJ010-01,S02,inconsistent_date,visit_date 2027-03-13 is in the future (after 2026-10-01)
+S02-SUBJ012-00,S02,inconsistent_date,visit_date 2024-01-19 precedes enrollment_date 2024-01-21
+S02-SUBJ013-03,S02,duplicate_record,duplicate subject/visit/date combination detected
+S02-SUBJ013-03-DUP,S02,duplicate_record,duplicate subject/visit/date combination detected
+S02-SUBJ014-00,S02,inconsistent_date,visit_date 2024-06-19 precedes enrollment_date 2024-06-20
+S02-SUBJ015-00,S02,inconsistent_date,visit_date 2024-02-21 precedes enrollment_date 2024-02-22
+S02-SUBJ016-00,S02,inconsistent_date,visit_date 2024-05-06 precedes enrollment_date 2024-05-07
+S02-SUBJ017-01,S02,inconsistent_date,visit_date 2024-09-03 precedes enrollment_date 2024-10-10
+S02-SUBJ018-00,S02,inconsistent_date,visit_date 2024-09-22 precedes enrollment_date 2024-09-23
+S02-SUBJ023-00,S02,inconsistent_date,visit_date 2024-04-06 precedes enrollment_date 2024-04-07
+S02-SUBJ024-00,S02,inconsistent_date,visit_date 2024-06-14 precedes enrollment_date 2024-06-15
+S02-SUBJ025-04,S02,out_of_range,"weight_kg=1.2 outside plausible range [30.0, 250.0]"
+S02-SUBJ027-00,S02,inconsistent_date,visit_date 2024-10-20 precedes enrollment_date 2024-10-21
+S02-SUBJ031-00,S02,inconsistent_date,visit_date 2024-04-13 precedes enrollment_date 2024-04-15
+S02-SUBJ032-00,S02,inconsistent_date,visit_date 2024-07-20 precedes enrollment_date 2024-07-21
+S02-SUBJ038-00,S02,inconsistent_date,visit_date 2024-01-22 precedes enrollment_date 2024-01-24
+S03-SUBJ002-02,S03,out_of_range,"systolic_bp=-5.0 outside plausible range [70, 220]"
+S03-SUBJ003-03,S03,out_of_range,"systolic_bp=38.0 outside plausible range [70, 220]"
+S03-SUBJ004-02,S03,duplicate_record,duplicate subject/visit/date combination detected
+S03-SUBJ004-02-DUP,S03,duplicate_record,duplicate subject/visit/date combination detected
+S03-SUBJ006-02,S03,missing_required,required field 'weight_kg' is blank
+S03-SUBJ007-04,S03,missing_required,required field 'adverse_event' is blank
+S03-SUBJ008-00,S03,out_of_range,"weight_kg=1.2 outside plausible range [30.0, 250.0]"
+S03-SUBJ008-00,S03,inconsistent_date,visit_date 2024-08-26 precedes enrollment_date 2024-08-28
+S03-SUBJ008-03,S03,missing_required,required field 'weight_kg' is blank
+S03-SUBJ009-01,S03,missing_required,required field 'visit_date' is blank
+S03-SUBJ010-01,S03,missing_required,required field 'enrollment_date' is blank
+S03-SUBJ012-00,S03,inconsistent_date,visit_date 2024-05-01 precedes enrollment_date 2024-06-17
+S03-SUBJ013-04,S03,duplicate_record,duplicate subject/visit/date combination detected
+S03-SUBJ013-04-DUP,S03,duplicate_record,duplicate subject/visit/date combination detected
+S03-SUBJ014-00,S03,out_of_range,"systolic_bp=260.0 outside plausible range [70, 220]"
+S03-SUBJ015-02,S03,missing_required,required field 'enrollment_date' is blank
+S03-SUBJ016-00,S03,inconsistent_date,visit_date 2024-10-25 precedes enrollment_date 2024-10-26
+S03-SUBJ016-02,S03,missing_required,required field 'visit_date' is blank
+S03-SUBJ017-00,S03,inconsistent_date,visit_date 2024-01-29 precedes enrollment_date 2024-01-31
+S03-SUBJ017-03,S03,duplicate_record,duplicate subject/visit/date combination detected
+S03-SUBJ017-03-DUP,S03,duplicate_record,duplicate subject/visit/date combination detected
+S03-SUBJ018-00,S03,inconsistent_date,visit_date 2024-04-17 precedes enrollment_date 2024-04-27
+S03-SUBJ019-00,S03,inconsistent_date,visit_date 2027-10-28 is in the future (after 2026-10-01)
+S03-SUBJ020-00,S03,inconsistent_date,visit_date 2024-11-28 precedes enrollment_date 2024-11-29
+S03-SUBJ020-04,S03,inconsistent_date,visit_date 2027-09-18 is in the future (after 2026-10-01)
+S03-SUBJ021-03,S03,missing_required,required field 'visit_date' is blank
+S03-SUBJ022-04,S03,duplicate_record,duplicate subject/visit/date combination detected
+S03-SUBJ022-04-DUP,S03,duplicate_record,duplicate subject/visit/date combination detected
+S03-SUBJ023-00,S03,inconsistent_date,visit_date 2024-02-29 precedes enrollment_date 2024-03-02
+S03-SUBJ023-00,S03,duplicate_record,duplicate subject/visit/date combination detected
+S03-SUBJ023-01,S03,out_of_range,"weight_kg=1.2 outside plausible range [30.0, 250.0]"
+S03-SUBJ023-03,S03,out_of_range,"diastolic_bp=10.0 outside plausible range [40, 130]"
+S03-SUBJ023-00-DUP,S03,inconsistent_date,visit_date 2024-02-29 precedes enrollment_date 2024-03-02
+S03-SUBJ023-00-DUP,S03,duplicate_record,duplicate subject/visit/date combination detected
+S03-SUBJ027-00,S03,inconsistent_date,visit_date 2024-08-26 precedes enrollment_date 2024-08-27
+S03-SUBJ028-00,S03,out_of_range,"temp_c=44.5 outside plausible range [34.0, 41.5]"
+S03-SUBJ028-04,S03,duplicate_record,duplicate subject/visit/date combination detected
+S03-SUBJ028-04-DUP,S03,duplicate_record,duplicate subject/visit/date combination detected
+S03-SUBJ029-00,S03,inconsistent_date,visit_date 2027-11-10 is in the future (after 2026-10-01)
+S03-SUBJ030-00,S03,missing_required,required field 'age' is blank
+S03-SUBJ030-01,S03,out_of_range,"heart_rate=2.0 outside plausible range [30, 200]"
+S04-SUBJ002-00,S04,inconsistent_date,visit_date 2024-04-28 precedes enrollment_date 2024-04-30
+S04-SUBJ003-00,S04,inconsistent_date,visit_date 2024-02-13 precedes enrollment_date 2024-02-14
+S04-SUBJ004-00,S04,inconsistent_date,visit_date 2024-09-15 precedes enrollment_date 2024-09-16
+S04-SUBJ006-00,S04,inconsistent_date,visit_date 2024-04-05 precedes enrollment_date 2024-04-06
+S04-SUBJ007-00,S04,inconsistent_date,visit_date 2024-05-06 precedes enrollment_date 2024-05-07
+S04-SUBJ008-00,S04,inconsistent_date,visit_date 2024-06-09 precedes enrollment_date 2024-06-11
+S04-SUBJ009-00,S04,inconsistent_date,visit_date 2024-03-27 precedes enrollment_date 2024-03-28
+S04-SUBJ010-00,S04,inconsistent_date,visit_date 2024-06-16 precedes enrollment_date 2024-06-18
+S04-SUBJ011-00,S04,inconsistent_date,visit_date 2024-01-28 precedes enrollment_date 2024-01-29
+S04-SUBJ013-02,S04,missing_required,required field 'adverse_event' is blank
+S04-SUBJ014-00,S04,inconsistent_date,visit_date 2024-11-18 precedes enrollment_date 2024-11-19
+S04-SUBJ014-03,S04,out_of_range,"diastolic_bp=190.0 outside plausible range [40, 130]"
+S04-SUBJ017-00,S04,inconsistent_date,visit_date 2024-02-29 precedes enrollment_date 2024-03-01
+S04-SUBJ019-00,S04,inconsistent_date,visit_date 2024-11-21 precedes enrollment_date 2024-11-23
+S04-SUBJ022-00,S04,inconsistent_date,visit_date 2024-03-08 precedes enrollment_date 2024-03-09
+S04-SUBJ023-00,S04,inconsistent_date,visit_date 2024-08-22 precedes enrollment_date 2024-08-24
+S04-SUBJ023-02,S04,out_of_range,"systolic_bp=38.0 outside plausible range [70, 220]"
+S04-SUBJ024-00,S04,inconsistent_date,visit_date 2024-08-02 precedes enrollment_date 2024-08-04
+S04-SUBJ024-04,S04,inconsistent_date,visit_date 2024-07-17 precedes enrollment_date 2024-08-04
+S04-SUBJ025-00,S04,inconsistent_date,visit_date 2024-08-13 precedes enrollment_date 2024-08-15
+S04-SUBJ026-00,S04,inconsistent_date,visit_date 2024-09-03 precedes enrollment_date 2024-09-05
+S04-SUBJ029-02,S04,missing_required,required field 'visit_date' is blank
+S04-SUBJ031-00,S04,inconsistent_date,visit_date 2024-08-26 precedes enrollment_date 2024-08-28
+S04-SUBJ031-02,S04,out_of_range,"heart_rate=280.0 outside plausible range [30, 200]"
+S04-SUBJ032-00,S04,inconsistent_date,visit_date 2024-03-15 precedes enrollment_date 2024-03-16
+S04-SUBJ035-00,S04,inconsistent_date,visit_date 2024-05-21 precedes enrollment_date 2024-05-23
+S04-SUBJ036-00,S04,inconsistent_date,visit_date 2024-11-20 precedes enrollment_date 2024-11-22
+S04-SUBJ038-00,S04,inconsistent_date,visit_date 2024-03-27 precedes enrollment_date 2024-03-28
+S04-SUBJ039-00,S04,inconsistent_date,visit_date 2024-02-01 precedes enrollment_date 2024-02-02
+S04-SUBJ039-02,S04,missing_required,required field 'weight_kg' is blank
+S05-SUBJ001-02,S05,out_of_range,"temp_c=21.0 outside plausible range [34.0, 41.5]"
+S05-SUBJ006-00,S05,missing_required,required field 'adverse_event' is blank
+S05-SUBJ006-00,S05,inconsistent_date,visit_date 2024-04-04 precedes enrollment_date 2024-04-06
+S05-SUBJ006-01,S05,out_of_range,"weight_kg=1.2 outside plausible range [30.0, 250.0]"
+S05-SUBJ008-00,S05,inconsistent_date,visit_date 2024-07-07 precedes enrollment_date 2024-07-08
+S05-SUBJ009-00,S05,inconsistent_date,visit_date 2024-04-08 precedes enrollment_date 2024-04-10
+S05-SUBJ011-01,S05,missing_required,required field 'adverse_event' is blank
+S05-SUBJ013-00,S05,inconsistent_date,visit_date 2024-04-29 precedes enrollment_date 2024-04-30
+S05-SUBJ014-00,S05,missing_required,required field 'age' is blank
+S05-SUBJ014-00,S05,inconsistent_date,visit_date 2024-09-30 precedes enrollment_date 2024-10-02
+S05-SUBJ016-01,S05,duplicate_record,duplicate subject/visit/date combination detected
+S05-SUBJ016-01-DUP,S05,duplicate_record,duplicate subject/visit/date combination detected
+S05-SUBJ020-01,S05,missing_required,required field 'adverse_event' is blank
+S05-SUBJ022-00,S05,inconsistent_date,visit_date 2024-02-09 precedes enrollment_date 2024-02-10
+S05-SUBJ023-00,S05,inconsistent_date,visit_date 2024-03-01 precedes enrollment_date 2024-03-02
+S05-SUBJ023-04,S05,missing_required,required field 'age' is blank
+S05-SUBJ024-03,S05,duplicate_record,duplicate subject/visit/date combination detected
+S05-SUBJ024-03-DUP,S05,duplicate_record,duplicate subject/visit/date combination detected
+S05-SUBJ025-00,S05,inconsistent_date,visit_date 2024-06-03 precedes enrollment_date 2024-06-05
+S05-SUBJ026-00,S05,inconsistent_date,visit_date 2024-08-16 precedes enrollment_date 2024-08-17
+S05-SUBJ026-01,S05,duplicate_record,duplicate subject/visit/date combination detected
+S05-SUBJ026-01-DUP,S05,duplicate_record,duplicate subject/visit/date combination detected
+S05-SUBJ027-02,S05,inconsistent_date,visit_date 2027-07-17 is in the future (after 2026-10-01)
+S05-SUBJ028-00,S05,inconsistent_date,visit_date 2024-07-13 precedes enrollment_date 2024-07-15
+S06-SUBJ003-00,S06,inconsistent_date,visit_date 2024-01-18 precedes enrollment_date 2024-01-20
+S06-SUBJ003-01,S06,duplicate_record,duplicate subject/visit/date combination detected
+S06-SUBJ003-01-DUP,S06,duplicate_record,duplicate subject/visit/date combination detected
+S06-SUBJ005-00,S06,missing_required,required field 'adverse_event' is blank
+S06-SUBJ005-03,S06,missing_required,required field 'weight_kg' is blank
+S06-SUBJ005-04,S06,missing_required,required field 'adverse_event' is blank
+S06-SUBJ007-00,S06,duplicate_record,duplicate subject/visit/date combination detected
+S06-SUBJ007-00-DUP,S06,duplicate_record,duplicate subject/visit/date combination detected
+S06-SUBJ008-00,S06,inconsistent_date,visit_date 2024-02-15 precedes enrollment_date 2024-02-16
+S06-SUBJ008-02,S06,duplicate_record,duplicate subject/visit/date combination detected
+S06-SUBJ008-02-DUP,S06,duplicate_record,duplicate subject/visit/date combination detected
+S06-SUBJ010-00,S06,inconsistent_date,visit_date 2024-02-08 precedes enrollment_date 2024-02-10
+S06-SUBJ010-04,S06,out_of_range,"diastolic_bp=190.0 outside plausible range [40, 130]"
+S06-SUBJ011-02,S06,missing_required,required field 'adverse_event' is blank
+S06-SUBJ013-00,S06,inconsistent_date,visit_date 2024-03-09 precedes enrollment_date 2024-03-11
+S06-SUBJ014-02,S06,inconsistent_date,visit_date 2024-02-28 precedes enrollment_date 2024-03-27
+S06-SUBJ015-00,S06,inconsistent_date,visit_date 2024-02-08 precedes enrollment_date 2024-02-09
+S06-SUBJ016-01,S06,out_of_range,"weight_kg=1.2 outside plausible range [30.0, 250.0]"
+S06-SUBJ017-01,S06,missing_required,required field 'adverse_event' is blank
+S06-SUBJ018-02,S06,missing_required,required field 'weight_kg' is blank
+S06-SUBJ019-00,S06,duplicate_record,duplicate subject/visit/date combination detected
+S06-SUBJ019-04,S06,inconsistent_date,visit_date 2027-08-22 is in the future (after 2026-10-01)
+S06-SUBJ019-00-DUP,S06,duplicate_record,duplicate subject/visit/date combination detected
+S06-SUBJ020-00,S06,inconsistent_date,visit_date 2024-06-08 precedes enrollment_date 2024-06-09
+S06-SUBJ021-04,S06,out_of_range,"systolic_bp=38.0 outside plausible range [70, 220]"
+S06-SUBJ024-00,S06,inconsistent_date,visit_date 2024-11-10 precedes enrollment_date 2024-11-12
+S06-SUBJ024-00,S06,duplicate_record,duplicate subject/visit/date combination detected
+S06-SUBJ024-01,S06,out_of_range,"temp_c=21.0 outside plausible range [34.0, 41.5]"
+S06-SUBJ024-03,S06,inconsistent_date,visit_date 2024-10-14 precedes enrollment_date 2024-11-12
+S06-SUBJ024-00-DUP,S06,inconsistent_date,visit_date 2024-11-10 precedes enrollment_date 2024-11-12
+S06-SUBJ024-00-DUP,S06,duplicate_record,duplicate subject/visit/date combination detected
+S06-SUBJ025-02,S06,out_of_range,"systolic_bp=-5.0 outside plausible range [70, 220]"
+S06-SUBJ025-04,S06,missing_required,required field 'adverse_event' is blank
+S06-SUBJ026-00,S06,inconsistent_date,visit_date 2024-02-23 precedes enrollment_date 2024-02-24
+S06-SUBJ027-03,S06,missing_required,required field 'enrollment_date' is blank
+S06-SUBJ028-00,S06,inconsistent_date,visit_date 2024-02-24 precedes enrollment_date 2024-02-26
+S06-SUBJ029-00,S06,inconsistent_date,visit_date 2024-02-08 precedes enrollment_date 2024-03-27
+S06-SUBJ030-01,S06,inconsistent_date,visit_date 2027-11-19 is in the future (after 2026-10-01)
+S06-SUBJ031-03,S06,duplicate_record,duplicate subject/visit/date combination detected
+S06-SUBJ031-03-DUP,S06,duplicate_record,duplicate subject/visit/date combination detected
+S06-SUBJ032-00,S06,inconsistent_date,visit_date 2024-05-04 precedes enrollment_date 2024-05-06
+S06-SUBJ032-01,S06,out_of_range,"temp_c=44.5 outside plausible range [34.0, 41.5]"
+S06-SUBJ032-02,S06,duplicate_record,duplicate subject/visit/date combination detected
+S06-SUBJ032-03,S06,missing_required,required field 'age' is blank
+S06-SUBJ032-02-DUP,S06,duplicate_record,duplicate subject/visit/date combination detected
+S06-SUBJ033-00,S06,duplicate_record,duplicate subject/visit/date combination detected
+S06-SUBJ033-02,S06,duplicate_record,duplicate subject/visit/date combination detected
+S06-SUBJ033-00-DUP,S06,duplicate_record,duplicate subject/visit/date combination detected
+S06-SUBJ033-02-DUP,S06,duplicate_record,duplicate subject/visit/date combination detected
+S07-SUBJ001-00,S07,inconsistent_date,visit_date 2024-09-11 precedes enrollment_date 2024-09-13
+S07-SUBJ006-00,S07,inconsistent_date,visit_date 2024-04-09 precedes enrollment_date 2024-04-10
+S07-SUBJ008-00,S07,inconsistent_date,visit_date 2024-08-05 precedes enrollment_date 2024-08-06
+S07-SUBJ010-00,S07,inconsistent_date,visit_date 2024-08-05 precedes enrollment_date 2024-08-07
+S07-SUBJ011-00,S07,inconsistent_date,visit_date 2024-10-30 precedes enrollment_date 2024-11-01
+S07-SUBJ016-00,S07,inconsistent_date,visit_date 2024-05-09 precedes enrollment_date 2024-05-10
+S07-SUBJ018-00,S07,inconsistent_date,visit_date 2024-06-01 precedes enrollment_date 2024-06-03
+S07-SUBJ022-00,S07,inconsistent_date,visit_date 2024-08-13 precedes enrollment_date 2024-08-14
+S07-SUBJ023-00,S07,inconsistent_date,visit_date 2024-08-15 precedes enrollment_date 2024-08-16
+S07-SUBJ026-00,S07,inconsistent_date,visit_date 2024-11-25 precedes enrollment_date 2024-11-26
+S07-SUBJ028-01,S07,inconsistent_date,visit_date 2024-02-18 precedes enrollment_date 2024-03-08
+S07-SUBJ030-00,S07,inconsistent_date,visit_date 2024-08-08 precedes enrollment_date 2024-08-09
+S08-SUBJ001-00,S08,inconsistent_date,visit_date 2024-05-31 precedes enrollment_date 2024-06-02
+S08-SUBJ004-00,S08,inconsistent_date,visit_date 2024-11-21 precedes enrollment_date 2024-11-23
+S08-SUBJ005-00,S08,inconsistent_date,visit_date 2024-05-20 precedes enrollment_date 2024-05-21
+S08-SUBJ007-00,S08,inconsistent_date,visit_date 2024-06-24 precedes enrollment_date 2024-06-26
+S08-SUBJ008-00,S08,inconsistent_date,visit_date 2024-05-11 precedes enrollment_date 2024-05-13
+S08-SUBJ009-00,S08,inconsistent_date,visit_date 2024-02-15 precedes enrollment_date 2024-02-17
+S08-SUBJ009-01,S08,inconsistent_date,visit_date 2027-08-15 is in the future (after 2026-10-01)
+S08-SUBJ010-03,S08,inconsistent_date,visit_date 2027-04-07 is in the future (after 2026-10-01)
+S08-SUBJ011-02,S08,inconsistent_date,visit_date 2024-06-13 precedes enrollment_date 2024-06-23
+S08-SUBJ011-04,S08,duplicate_record,duplicate subject/visit/date combination detected
+S08-SUBJ011-04-DUP,S08,duplicate_record,duplicate subject/visit/date combination detected
+S08-SUBJ013-00,S08,inconsistent_date,visit_date 2024-07-13 precedes enrollment_date 2024-07-15
+S08-SUBJ016-00,S08,inconsistent_date,visit_date 2024-03-11 precedes enrollment_date 2024-03-12
+S08-SUBJ017-00,S08,inconsistent_date,visit_date 2024-08-29 precedes enrollment_date 2024-08-31
+S08-SUBJ019-00,S08,inconsistent_date,visit_date 2024-10-17 precedes enrollment_date 2024-10-18
+S08-SUBJ021-00,S08,out_of_range,"systolic_bp=-5.0 outside plausible range [70, 220]"
+S08-SUBJ021-00,S08,inconsistent_date,visit_date 2024-04-12 precedes enrollment_date 2024-04-14
+S08-SUBJ022-00,S08,inconsistent_date,visit_date 2024-09-14 precedes enrollment_date 2024-09-16
+S08-SUBJ023-00,S08,inconsistent_date,visit_date 2024-06-08 precedes enrollment_date 2024-06-10
+S08-SUBJ024-00,S08,inconsistent_date,visit_date 2024-09-05 precedes enrollment_date 2024-09-07
+S08-SUBJ025-00,S08,inconsistent_date,visit_date 2024-07-16 precedes enrollment_date 2024-07-18
+S08-SUBJ026-00,S08,inconsistent_date,visit_date 2024-10-17 precedes enrollment_date 2024-10-18
+S08-SUBJ026-01,S08,inconsistent_date,visit_date 2024-08-22 precedes enrollment_date 2024-10-18
+S08-SUBJ027-01,S08,missing_required,required field 'age' is blank
+S08-SUBJ029-01,S08,duplicate_record,duplicate subject/visit/date combination detected
+S08-SUBJ029-01-DUP,S08,duplicate_record,duplicate subject/visit/date combination detected
+S08-SUBJ031-01,S08,inconsistent_date,visit_date 2024-06-04 precedes enrollment_date 2024-06-13
+S09-SUBJ002-01,S09,inconsistent_date,visit_date 2027-02-02 is in the future (after 2026-10-01)
+S09-SUBJ002-03,S09,out_of_range,"alt_u_l=850.0 outside plausible range [0, 200]"
+S09-SUBJ003-00,S09,out_of_range,"diastolic_bp=190.0 outside plausible range [40, 130]"
+S09-SUBJ006-00,S09,inconsistent_date,visit_date 2023-12-22 precedes enrollment_date 2024-02-03
+S09-SUBJ007-00,S09,inconsistent_date,visit_date 2024-08-19 precedes enrollment_date 2024-08-20
+S09-SUBJ009-00,S09,inconsistent_date,visit_date 2024-09-07 precedes enrollment_date 2024-09-08
+S09-SUBJ010-00,S09,inconsistent_date,visit_date 2024-08-08 precedes enrollment_date 2024-08-10
+S09-SUBJ017-00,S09,out_of_range,"heart_rate=280.0 outside plausible range [30, 200]"
+S09-SUBJ017-02,S09,duplicate_record,duplicate subject/visit/date combination detected
+S09-SUBJ017-02-DUP,S09,duplicate_record,duplicate subject/visit/date combination detected
+S09-SUBJ018-00,S09,inconsistent_date,visit_date 2024-04-28 precedes enrollment_date 2024-04-29
+S09-SUBJ018-02,S09,inconsistent_date,visit_date 2027-05-06 is in the future (after 2026-10-01)
+S09-SUBJ018-03,S09,missing_required,required field 'enrollment_date' is blank
+S09-SUBJ020-00,S09,inconsistent_date,visit_date 2024-05-26 precedes enrollment_date 2024-05-27
+S09-SUBJ020-03,S09,out_of_range,"temp_c=44.5 outside plausible range [34.0, 41.5]"
+S09-SUBJ021-00,S09,inconsistent_date,visit_date 2024-03-09 precedes enrollment_date 2024-03-10
+S09-SUBJ021-00,S09,duplicate_record,duplicate subject/visit/date combination detected
+S09-SUBJ021-00-DUP,S09,inconsistent_date,visit_date 2024-03-09 precedes enrollment_date 2024-03-10
+S09-SUBJ021-00-DUP,S09,duplicate_record,duplicate subject/visit/date combination detected
+S09-SUBJ022-01,S09,inconsistent_date,visit_date 2024-08-13 precedes enrollment_date 2024-09-27
+S09-SUBJ023-00,S09,inconsistent_date,visit_date 2024-02-03 precedes enrollment_date 2024-02-05
+S09-SUBJ023-01,S09,missing_required,required field 'weight_kg' is blank
+S09-SUBJ023-03,S09,duplicate_record,duplicate subject/visit/date combination detected
+S09-SUBJ023-03-DUP,S09,duplicate_record,duplicate subject/visit/date combination detected
+S09-SUBJ024-00,S09,inconsistent_date,visit_date 2024-07-07 precedes enrollment_date 2024-07-08
+S09-SUBJ025-00,S09,inconsistent_date,visit_date 2024-04-22 precedes enrollment_date 2024-04-23
+S09-SUBJ025-03,S09,missing_required,required field 'enrollment_date' is blank
+S09-SUBJ026-03,S09,out_of_range,"temp_c=21.0 outside plausible range [34.0, 41.5]"

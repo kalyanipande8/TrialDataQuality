@@ -1,0 +1,10 @@
+site_id,site_name,coordinator,region,n_subjects,issue_rate
+S01,Stony Brook Univ. Medical Center,J. Alvarez,Northeast,45,0.02
+S02,Lakeshore Clinical Research,M. Chen,Midwest,38,0.03
+S03,Desert Valley Trials Center,R. Osei,Southwest,30,0.18
+S04,Riverside Family Health,T. Nguyen,West,42,0.04
+S05,Granite State Research Partners,K. O'Brien,Northeast,28,0.07
+S06,Bayou Clinical Associates,D. Fontenot,South,33,0.22
+S07,Cascade Medical Research,L. Park,West,36,0.03
+S08,Heartland Trial Network,S. Patel,Midwest,31,0.06
+S09,Pine Ridge Clinical Site,A. Whitfeather,South,26,0.12
